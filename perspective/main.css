@@ -1,0 +1,64 @@
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+#one{
+
+		background: url('images/feet.jpeg');
+		background-attachment: fixed;
+		background-position: center;
+		background-size:cover;
+		background-repeat: no-repeat;
+		height: 150px;
+		padding: 300px;
+}
+#two{
+		background:url('images/lakeSide.jpg');
+		background-attachment: fixed;
+		background-position: center;
+		background-size:cover;
+		background-repeat: no-repeat;
+		height: 600px;
+		padding: 300px;
+}
+#three{	
+		background: url('images/sunball.jpg');
+		background-attachment: fixed;
+		background-position: center;
+		background-size:cover;
+		background-repeat: no-repeat;
+		height: 600px;
+		padding: 300px;
+}
+.pageSynopsis{
+	position: relative;
+	left: 10%;
+	width: 80%;
+	border: 10px dashed teal;
+	border-radius: 40px;
+}
+a{
+	text-decoration: none;
+}
+h1{	
+	background-color: white;
+	padding: 0px;
+	position: relative;
+	text-align: center;
+	transition: .5s ease-in;
+}
+h1:hover{
+	text-shadow: 3px 3px rgba(0,0,0,.8);
+}
+p{
+	text-align: center;
+	padding: 5px;
+	letter-spacing: 2px;
+}
+footer{
+	height:100px;
+	background-color: teal;
+}
